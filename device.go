@@ -43,7 +43,7 @@ const (
 
 // Minimum protocol version requirements of rtty
 const rttyProtoRequired uint8 = 3
-const heartbeatInterval = time.Second * 35
+const heartbeatInterval = time.Second * 30
 
 type device struct {
 	br         *broker
